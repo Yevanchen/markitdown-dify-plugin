@@ -8,25 +8,19 @@ This plugin serves as an excellent alternative to traditional document extractio
 
 ## Supported File Formats
 
-- **Documents**
-  - PDF files (`.pdf`)
-  - Microsoft Word documents (`.doc`, `.docx`)
-  - Microsoft PowerPoint presentations (`.ppt`, `.pptx`)
-  - Microsoft Excel spreadsheets (`.xls`, `.xlsx`)
-  - HTML files (`.html`, `.htm`)
+- **PDF**
+- **PowerPoint**
+- **Word**
+- **Excel**
+- **Images**（EXIF metadata, OCR）
+- **Audio**（EXIF metadata, speech transcription）
+- **HTML**
+- **Text-based formats**
+- **ZIP archives**
+- **YouTube URLs**
+- **EPUBs**
+- ...and more!
 
-- **Media Files**
-  - Images with EXIF metadata and OCR support
-  - Audio files with metadata and speech transcription
-
-- **Data Formats**
-  - CSV files
-  - JSON documents
-  - XML files
-  - Text files
-
-- **Archives**
-  - ZIP files (with automatic content iteration)
 
 ## Usage in Dify
 
