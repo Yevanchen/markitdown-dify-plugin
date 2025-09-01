@@ -4,6 +4,8 @@ name: Auto Create PR on Main Push
 on:
   push:
     branches: [ main ]  # Trigger on push to main
+  release:
+    types: [published]  # Trigger on release published
 
 jobs:
   create_pr: # Renamed job for clarity
